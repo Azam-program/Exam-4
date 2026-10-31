@@ -531,17 +531,14 @@ input{
     }
 }
 
-@media screen and (max-width: 600px) {
-
+@media (max-width: 510px) {
     * {
         box-sizing: border-box;
     }
-
     body {
         width: 100%;
         overflow-x: hidden;
     }
-
     .s {
         width: 100%;
         height: 70px;
@@ -550,61 +547,48 @@ input{
         align-items: center;
         justify-content: space-between;
     }
-
-    .s > :not(.r1):not(.r11) {
+    .s  :not(.r1):not(.r11) {
         display: none;
     }
-
     .r1 {
         width: 90px;
         height: auto;
         margin-left: 0;
     }
-
     .r11 {
         display: block;
         width: 30px;
     }
-
     .s2, .s3, .s4, .s5, .s6 {
         width: 100%;
         height: auto;
     }
-
     .r15, .n31 {
         width: 94%;
         height: auto;
         margin: 15px 3%;
     }
-
     .r16, .r21, .n2, .n16, .n32 {
         margin: 20px;
         font-size: 28px;
     }
-
     .r17, .r22, .r23, .n3, .n12, .n13, .n14, .n15,
     .n19, .n22, .n25, .n33, .n43 {
         margin: 15px 20px;
         font-size: 14px;
     }
-
     .r19 {
         margin: 15px 20px;
         max-width: 90%;
     }
-
     .r18 {
         margin: 20px;
     }
-
     .r20 {
         width: 90%;
         height: auto;
         margin: 20px 5%;
     }
-
-    /* S4 - АВВАЛ РАСМ, БАЪД МАТН */
-
     .s4 {
         width: 100%;
         height: auto;
@@ -612,14 +596,12 @@ input{
         display: flex;
         flex-direction: column;
     }
-
     .n2 {
         order: 1;
         font-size: 26px;
         margin: 20px 0;
         padding: 0;
     }
-
     .n3 {
         order: 2;
         font-size: 14px;
@@ -627,55 +609,42 @@ input{
         line-height: 1.6;
         text-align: left;
     }
-
     .n4 {
         order: 3;
     }
-
     .n8 {
         order: 4;
     }
-
     .n12 {
         order: 5;
     }
-
     .n5 {
         order: 6;
     }
-
     .n9 {
         order: 7;
     }
-
     .n13 {
         order: 8;
     }
-
     .n6 {
         order: 9;
     }
-
     .n10 {
         order: 10;
     }
-
     .n14 {
         order: 11;
     }
-
     .n7 {
         order: 12;
     }
-
     .n11 {
         order: 13;
     }
-
     .n15 {
         order: 14;
     }
-
     .n4, .n5, .n6, .n7 {
         display: flex;
         justify-content: center;
@@ -686,47 +655,41 @@ input{
         margin: 25px auto 10px;
         flex-shrink: 0;
     }
-
     .n4 img, .n5 img, .n6 img, .n7 img {
         width: 85px;
         height: 85px;
         object-fit: contain;
     }
-
     .n8, .n9, .n10, .n11 {
         display: block;
         font-size: 19px;
         margin: 10px 0;
+        margin-left: 100px;
     }
-
     .n12, .n13, .n14, .n15 {
         display: block;
         font-size: 14px;
         line-height: 1.6;
         margin: 5px 0 20px;
         color: #454545;
+        margin-left: 100px;
     }
-
     .n17, .n20 {
         margin: 20px;
     }
-
     .n18, .n21 {
         margin: -45px 65px 0;
         font-size: 15px;
     }
-
     .n19, .n22 {
         margin: 15px 65px;
     }
-
     .n23 {
         width: 90%;
         height: auto;
         margin: 30px 5%;
         padding: 20px;
     }
-
     .n24 {
         width: 100%;
         height: auto;
@@ -734,82 +697,64 @@ input{
         position: static;
         padding: 15px;
     }
-
     .n25 {
         margin: 20px 0;
     }
-
     .s6 h1 {
         margin: 30px 0;
     }
-
     .n26 {
         width: 100%;
         padding: 15px;
         gap: 15px;
     }
-
     .n27 {
         flex-direction: column;
         gap: 15px;
     }
-
     .n27 input, .n30 input {
         width: 100% !important;
     }
-
     .n29 textarea {
         width: 100%;
         height: 100px;
     }
-
     .n28 button {
         width: 100%;
     }
-
     .n34, .n37, .n40 {
         width: 90%;
         margin: 10px 5%;
     }
-
-    /* FOOTER - ТАНҲО F10 ВА F11 */
-
     .f1 {
         width: 100%;
         height: auto;
         margin-top: 100px;
         padding: 30px 15px;
     }
-
     .f2, .f3 {
         display: block;
         width: 100%;
     }
-
     .f3 > :not(.f10) {
         display: none;
     }
-
     .f10 {
         display: block;
         width: 100%;
         margin: 0;
     }
-
     .f10 h1 {
         font-size: 18px;
     }
-
     .f10 p {
         font-size: 13px;
         margin-top: 15px;
         line-height: 1.5;
     }
-
     .f10 img {
         max-width: 18px;
     }
-
     .f11 {
         display: flex;
         flex-direction: column;
@@ -817,32 +762,27 @@ input{
         margin-top: 30px;
         gap: 15px;
     }
-
     .f12 {
         margin: 0;
         font-size: 14px;
     }
-
     .f13 {
         display: flex;
         align-items: center;
         width: 100%;
         gap: 10px;
     }
-
     .f14 {
         display: block;
         width: 25px;
         height: auto;
         margin: 0;
     }
-
     .f15 {
         display: block;
         font-size: 12px;
         margin: 0;
     }
-
     .f19 {
         display: block;
         width: 25px;
@@ -850,9 +790,7 @@ input{
         margin-left: auto;
         position: static;
     }
-
     .f17 {
         display: none;
     }
-
 }
